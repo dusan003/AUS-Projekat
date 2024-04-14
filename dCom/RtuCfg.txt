@@ -2,12 +2,9 @@ STA 82
 TCP 52554
 
 
-DO_REG  1 2800   0  0      1     0  DO  @PrvoNapajanje 2
-DO_REG  1 2801   0  0      1     0  DO  @DrugoNapajanje 2
+DO_REG  2 2800   0  0      1     0  DO  @Napajanje 2
 
-DI_REG  1 4000  0  0      1     0  DI  @USB1 2
-DI_REG  1 4001  0  0      1     0  DI  @USB2 2 
-DI_REG  1 4002  0  0      1     0  DI  @USB3 2
+DI_REG  3 4000  0  0      1     0  DI  @USB 2
 DI_REG  1 4003  0  0      1     0  DI  @StanjeUticnice 2
 DI_REG  1 4004  0  0      1     0  DI  @USBC 2
 
